@@ -1,41 +1,65 @@
-# Enterprise Active Directory Domain Services Lab on Microsoft Azure
+<p align="center">
+  <img src="diagrams/network-topology.png" alt="Enterprise Active Directory Azure Architecture" width="100%">
+</p>
 
-This project demonstrates the deployment of an enterprise-style Active Directory environment on Microsoft Azure using Windows Server 2025.
+<h1 align="center">
+Enterprise Active Directory Domain Services (AD DS) Lab on Microsoft Azure
+</h1>
 
-## Project Summary
+<p align="center">
+A real-world enterprise infrastructure deployment using Microsoft Azure, Windows Server 2025, Active Directory Domain Services, DNS, Azure Virtual Networking, and Identity Management.
+</p>
 
-The lab simulates a small corporate identity infrastructure with centralized authentication, DNS, organizational units, users, security groups, and remote administration.
+<p align="center">
 
-## Technologies Used
+![Project Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
 
-- Microsoft Azure
-- Windows Server 2025
-- Active Directory Domain Services
-- DNS
-- Remote Desktop Protocol
-- Azure Virtual Network
-- Network Security Groups
-- PowerShell
+![Windows Server](https://img.shields.io/badge/Windows_Server-2025-0078D4?style=for-the-badge&logo=windows&logoColor=white)
 
-## Lab Configuration
+![Microsoft Azure](https://img.shields.io/badge/Microsoft-Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
-| Component | Details |
-|---|---|
-| Domain | univen.local |
-| Domain Controller | UNIVEN-DC01 |
-| Resource Group | UNIVEN-ICT-RG |
-| Virtual Network | UNIVEN-VNET |
-| Server OS | Windows Server 2025 |
-| Users Created | 5 |
-| Security Groups | IT_ADMINS, HR_USERS, FINANCE_USERS, SALES_USERS |
+![Active Directory](https://img.shields.io/badge/Active_Directory-Enterprise-003366?style=for-the-badge)
 
-## Active Directory Structure
+![PowerShell](https://img.shields.io/badge/PowerShell-Automation-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 
-```text
-univen.local
-└── netshidzivhe-company
-    ├── Users
-    ├── Computers
-    ├── Servers
-    ├── Groups
-    └── Service Accounts
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Live-success?style=for-the-badge&logo=github)
+
+![Last Updated](https://img.shields.io/badge/Updated-July_2026-blue?style=for-the-badge)
+
+</p>
+
+---
+
+## 🌐 Live Project Website
+
+> **GitHub Pages**
+
+**https://YOUR-USERNAME.github.io/Enterprise-Active-Directory-Azure-Lab/**
+
+---
+
+## 📖 Project Overview
+
+This project demonstrates the complete deployment of an enterprise Windows infrastructure hosted on Microsoft Azure. It simulates a real corporate environment where Active Directory Domain Services (AD DS) provides centralized authentication, identity management, DNS, and organizational administration.
+
+The deployment was completed entirely from scratch, documenting each stage of the implementation, troubleshooting challenges, and final infrastructure architecture.
+
+---
+
+## 🚀 Project Highlights
+
+- ✅ Microsoft Azure Infrastructure Deployment
+- ✅ Windows Server 2025 Deployment
+- ✅ Active Directory Domain Services (AD DS)
+- ✅ Domain Controller Promotion
+- ✅ DNS Configuration
+- ✅ Azure Virtual Networking
+- ✅ Organizational Unit (OU) Design
+- ✅ Security Group Administration
+- ✅ Domain User Management
+- ✅ Enterprise Documentation
+- ✅ Real Deployment Screenshots
+- ✅ Architecture Diagrams
+- ✅ Troubleshooting & Resolution Documentation
+
+---
